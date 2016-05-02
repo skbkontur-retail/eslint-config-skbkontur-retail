@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-skbkontur-retail",
-    "version": "1.0.0-beta.1",
+    "version": "1.0.0-beta.2",
     "description": "ESLint config for SKBKontur EDI project",
     "main": "index.js",
     "author": "tihonove <tihonov.ea@gmail.com>",
@@ -18,8 +18,9 @@
     "bugs": {
         "url": "https://github.com/skbkontur-retail/eslint-config-skbkontur-retail/issues"
     },
-    "dependencies": {},
-    "devDependencies": {
+    "main": "index.js",
+    "dependencies": {
+        "babel-eslint": "^6.0.4",
         "eslint": "^2.9.0",
         "eslint-plugin-babel": "^3.2.0",
         "eslint-plugin-jasmine": "^1.8.1",
@@ -33,6 +34,6 @@
         "skbkontur-retail",
         "javascript",
         "react",
-        "eslint",
+        "eslint"
     ]
 }

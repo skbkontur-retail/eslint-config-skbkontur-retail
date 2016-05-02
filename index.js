@@ -1,7 +1,7 @@
 module.exports = {
     "extends": [
-        "./base.js",
-        "./react.js",
+        require.resolve("./base.js"),
+        require.resolve("./react.js"),
     ],
     "rules": {},
 };
