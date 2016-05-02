@@ -44,7 +44,7 @@ module.exports = {
         // http://eslint.org/docs/rules/id-length
         "id-length": [2, {
             "min": 2,
-            "exceptions": ["i", "x", "y", "f", "_"],
+            "exceptions": ["i", "x", "y", "f", "_", "e"],
         }],
         // Enforce Indentation
         // http://eslint.org/docs/rules/indent
