@@ -64,7 +64,7 @@ module.exports = {
         "no-implied-eval": 2,
         // Disallow this keywords outside of classes or class-like objects
         // http://eslint.org/docs/rules/no-invalid-this
-        "no-invalid-this": 2,
+        "no-invalid-this": 0,
         // Disallow Unnecessary Nested Blocks
         // http://eslint.org/docs/rules/no-lone-blocks
         "no-lone-blocks": 2,
