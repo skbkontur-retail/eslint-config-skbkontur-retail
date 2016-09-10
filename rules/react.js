@@ -71,6 +71,7 @@ module.exports = {
         "react/sort-comp": [2, {
             "order": [
               "displayName",
+              "flowtyping",
               "propTypes",
               "contextTypes",
               "childContextTypes",
@@ -89,11 +90,16 @@ module.exports = {
               "componentDidUpdate",
               "componentWillUnmount",
               "everything-else",
-              "/^on.+$/",
               "/^get.+$/",
               "/^render.+$/",
               "render",
           ],
+          groups: {
+            flowtyping: [
+              'props',
+              'state',
+            ]
+          }
         }],
         // Prevent missing parentheses around multilines JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md

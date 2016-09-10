@@ -4,4 +4,7 @@ module.exports = {
         require.resolve("./react.js"),
     ],
     "rules": {},
+    "globals": {
+        "$Shape": false,
+    }
 };

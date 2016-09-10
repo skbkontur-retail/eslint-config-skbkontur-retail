@@ -5,7 +5,11 @@ module.exports = {
         "max-depth": [2, 4],
         // Limit Maximum Length of Line
         // http://eslint.org/docs/rules/max-len
-        "max-len": [2, 120, { "ignoreTrailingComments": true, "ignoreComments": true }],
+        "max-len": [2, 120, { 
+            "ignoreTrailingComments": true, 
+            "ignoreComments": true,
+            "ignorePattern": "^import\\s*.*\\s*from\\s*'.*';$"
+        }],
         // Limit Maximum Number of Parameters
         // http://eslint.org/docs/rules/max-params
         "max-params": [2, 4],
