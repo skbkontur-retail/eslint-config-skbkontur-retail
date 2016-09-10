@@ -39,7 +39,7 @@ module.exports = {
         "react/no-danger": 2,
         // Prevent usage of setState in componentDidMount
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-        "react/no-did-mount-set-state": [2, "allow-in-func"],
+        "react/no-did-mount-set-state": [2, "disallow-in-func"],
         // Prevent usage of setState in componentDidUpdate
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
         "react/no-did-update-set-state": 2,
@@ -103,6 +103,6 @@ module.exports = {
         }],
         // Prevent missing parentheses around multilines JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
-        "react/wrap-multilines": 2,
+        "react/jsx-wrap-multilines": 2,
     },
 };
