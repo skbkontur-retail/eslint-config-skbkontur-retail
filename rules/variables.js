@@ -22,6 +22,8 @@ module.exports = {
             "vars": "local",
             // only the last argument must be used
             "args": "after-used",
+            // not to check arguments usega whose names starts with _
+            "argsIgnorePattern": "^_",
         }],
     },
 };
