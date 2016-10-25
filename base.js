@@ -7,6 +7,7 @@ module.exports = {
         "./rules/strict.js",
         "./rules/style.js",
         "./rules/variables.js",
+        "./rules/flowtype.js",
     ],
     // https://github.com/babel/babel-eslint
     "parser": "babel-eslint",
