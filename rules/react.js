@@ -78,6 +78,7 @@ module.exports = {
               "mixins",
               "statics",
               "defaultProps",
+              "localProperties",
               "constructor",
               "getDefaultProps",
               "getInitialState",
@@ -98,7 +99,11 @@ module.exports = {
             flowtyping: [
               'props',
               'state',
-            ]
+              'context',
+            ],
+            localProperties: [
+                '/^.*$/',
+            ],
           }
         }],
         // Prevent missing parentheses around multilines JSX
