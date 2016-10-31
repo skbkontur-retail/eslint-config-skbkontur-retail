@@ -10,7 +10,7 @@ module.exports = {
 
         // Enforces consistent use of trailing commas in Object and Tuple annotations.
         // https://github.com/gajus/eslint-plugin-flowtype#delimiter-dangle
-        "flowtype/delimiter-dangle": [2, "always"],
+        "flowtype/delimiter-dangle": [2, "always-multiline"],
 
         // Enforces consistent spacing within generic type annotation parameters.
         // https://github.com/gajus/eslint-plugin-flowtype#generic-spacing
