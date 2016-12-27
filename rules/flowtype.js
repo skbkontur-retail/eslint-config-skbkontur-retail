@@ -1,5 +1,9 @@
 module.exports = {
     "rules": {
+        // Marks Flow type identifiers as defined. Used to suppress no-undef reporting of type identifiers.
+        // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-define-flow-type
+        "flowtype/define-flow-type": 1,
+
         // Enforces a "boolean" style for boolean type annotations. This rule takes one argument.
         // https://github.com/gajus/eslint-plugin-flowtype#boolean-style
         "flowtype/boolean-style": [2, "boolean"],
