@@ -22,7 +22,7 @@ module.exports = {
         "dot-location": [2, "property"],
         // Require === and !==
         // http://eslint.org/docs/rules/eqeqeq
-        "eqeqeq": 2,
+        "eqeqeq": ["error", "always", { "null": "ignore" }],
         // Make sure for-in loops have an if statement
         // http://eslint.org/docs/rules/guard-for-in
         "guard-for-in": 2,
@@ -40,7 +40,7 @@ module.exports = {
         "no-empty-pattern": 2,
         // Disallow Null Comparisons
         // http://eslint.org/docs/rules/no-eq-null
-        "no-eq-null": 2,
+        "no-eq-null": "off",
         // Disallow use of eval()
         // http://eslint.org/docs/rules/no-eval
         "no-eval": 2,
