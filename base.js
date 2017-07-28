@@ -1,13 +1,13 @@
 module.exports = {
     "extends": [
-        "./rules/best-practices.js",
-        "./rules/errors.js",
-        "./rules/es2015.js",
-        "./rules/legacy.js",
-        "./rules/strict.js",
-        "./rules/style.js",
-        "./rules/variables.js",
-        "./rules/flowtype.js",
+        require.resolve("./rules/best-practices.js"),
+        require.resolve("./rules/errors.js"),
+        require.resolve("./rules/es2015.js"),
+        require.resolve("./rules/legacy.js"),
+        require.resolve("./rules/strict.js"),
+        require.resolve("./rules/style.js"),
+        require.resolve("./rules/variables.js"),
+        require.resolve("./rules/flowtype.js"),
     ],
     // https://github.com/babel/babel-eslint
     "parser": "babel-eslint",
