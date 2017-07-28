@@ -22,7 +22,7 @@ module.exports = {
 
         // Checks for duplicate properties in Object annotations.
         // https://github.com/gajus/eslint-plugin-flowtype#no-dupe-keys
-        "flowtype/no-dupe-keys": [2, "always"],
+        "flowtype/no-dupe-keys": 2,
 
         // Warns against weak type annotations any, Object and Function.
         // These types can cause flow to silently skip over portions of your code,
