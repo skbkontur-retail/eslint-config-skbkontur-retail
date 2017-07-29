@@ -1,4 +1,4 @@
-#eslint-config-skbkontur-retail
+# eslint-config-skbkontur-retail
 
 ## Usage
 
