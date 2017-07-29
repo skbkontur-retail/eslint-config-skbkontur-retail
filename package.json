@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skbkontur-retail",
-  "version": "3.0.0-beta2",
+  "version": "3.0.0-beta3",
   "description": "ESLint config for SKBKontur EDI project",
   "main": "index.js",
   "author": "tihonove <tihonov.ea@gmail.com>",
