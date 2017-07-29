@@ -1,6 +1,6 @@
 #eslint-config-skbkontur-retail
 
-## Usaage
+## Usage
 
 ```
 npm install --save-dev eslint-config-skbkontur-retail
