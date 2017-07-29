@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skbkontur-retail",
-  "version": "2.1.14",
+  "version": "2.1.15",
   "description": "ESLint config for SKBKontur EDI project",
   "main": "index.js",
   "author": "tihonove <tihonov.ea@gmail.com>",
@@ -19,13 +19,15 @@
     "url": "https://github.com/skbkontur-retail/eslint-config-skbkontur-retail/issues"
   },
   "peerDependencies": {
-    "eslint": "^3.5.0"
+    "eslint": "^4.3.0"
   },
   "dependencies": {
-    "babel-eslint": "^6.0.4",
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-flowtype": "^2.29.1",
-    "eslint-plugin-react": "^6.2.0"
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.1.0"
   },
   "engines": {
     "node": "*"
